@@ -1,0 +1,28 @@
+Name: Adam Holt
+Identikey: adho3870
+Email: adam.holt@colorado.edu
+
+Included files:
+	Simple_add.c
+	Description: Code for a system call that adds two integers and returns their sum via a pointer
+	Location: arch/x86/kernel/
+
+	Makefile
+	Description: Instructions to compile the kernel - updated to include new system call object files
+	Location: arch/x86/kernel/
+
+	syscall_64.tbl
+	Description: Table of available system calls and their properties - updated to include new system calls
+	Location: arch/x86/syscalls/
+
+	syscalls.h
+	Description: Header file that includes prototypes for system call functions - updated with prototypes for new system calls
+	Location: include/linux/
+
+	userspace.c
+	Description: Code to test the added system calls	
+	Build command: gcc userspace.c -o test
+	Run command ./test
+
+	syslog
+	Description: System log displaying print results from added system calls	

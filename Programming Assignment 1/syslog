@@ -1,0 +1,5 @@
+Jan 25 18:19:12 cu-cs-vm anacron[1029]: Job `cron.daily' terminated
+Jan 25 18:19:12 cu-cs-vm anacron[1029]: Normal exit (1 job run)
+Jan 25 18:20:59 cu-cs-vm kernel: [ 1379.700268] hello world
+Jan 25 18:21:01 cu-cs-vm kernel: [ 1382.009206] 5 + 7
+Jan 25 18:21:01 cu-cs-vm kernel: [ 1382.009213] result = 12
