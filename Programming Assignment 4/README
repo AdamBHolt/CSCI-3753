@@ -1,0 +1,25 @@
+Adam Holt & Joe Cosenza
+CS3753 Programming Assignment 4
+
+C files:
+	cpu-process.c
+	io-process.c
+	mixxes-process.c
+	
+Other Files:
+	testscript - script to run each of the tests
+	Makefile - make the project
+
+Directory:
+	/tests_output - location of output files for test data
+	
+Commands:
+	Build: make
+	Clean: make clean
+	Other: make cleandata - remove existing data from the output files to start new tests
+	
+Build and run the project with the following commands to execute 27 separate benchmark tests:
+	make clean
+	make cleandata
+	make
+	./testscript
